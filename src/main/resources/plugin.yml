@@ -2,3 +2,18 @@ name: MolehuntPlus
 version: '${project.version}'
 main: live.chillytheeevee.molehuntplus.MolehuntPlus
 api-version: '1.21'
+author: "ChillyTheEevee"
+commands:
+  molehuntplus:
+    description: Base command for the MolehuntPlus plugin
+    usage: /molehuntplus <subcommand>
+    aliases:
+      - mhp
+
+permissions:
+  molehuntplus.help:
+    description: Grants the player the ability to use the /molehuntplus help command
+    default: op
+  molehuntplus.reload:
+    description: Grants the player the ability to use the /molehuntplus reload command
+    default: op
