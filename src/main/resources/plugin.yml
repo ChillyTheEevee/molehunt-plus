@@ -1,0 +1,4 @@
+name: MolehuntPlus
+version: '${project.version}'
+main: live.chillytheeevee.molehuntplus.MolehuntPlus
+api-version: '1.21'
